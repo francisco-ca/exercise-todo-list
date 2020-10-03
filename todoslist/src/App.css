@@ -1,0 +1,75 @@
+.App {
+  margin:0 auto;
+  width:350px;
+  
+}
+.title{color: goldenrod;
+text-shadow:2px 2px black;
+text-align: center;
+font-size: 80px;
+font-family: "Courier New", Courier, monospace;}
+.container{margin:0 auto;}
+
+.inputedit{
+margin:0 auto;
+padding-top: 50px;
+
+
+}
+input{
+width: 300px;
+padding-left:20px;
+font-size:20px;
+}
+.addtodo{
+background-color:goldenrod;
+color:black;
+}
+ul{
+margin:0;
+background-color:rgb(250, 250, 250);
+width: 300px;
+padding:0px;
+list-style-type: none;
+text-align: left;
+font-size: 20px;
+}
+li{
+padding-left: 20px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right: 10px;
+
+
+}
+
+
+
+.cerrar{
+
+display: flex;
+position: relative;
+color:goldenrod;
+border:none;
+background-color:rgb(250, 250, 250);
+float:right;
+padding-left:10px;
+vertical-align: middle;
+}
+
+.larglist{
+font-size: 12px;
+position: absolute;
+color:grey;
+float: left;
+font-style: italic;
+}
+
+.empty{
+font-size: 14px;
+color:grey;
+font-style: italic;
+padding:20px;
+}
+
+
