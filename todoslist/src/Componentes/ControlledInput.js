@@ -42,14 +42,14 @@ const ControlledInput = () => {
                     
                    {list.length>0? 
                    list.map(function(task, i){
-                    return <div class="border rounded"><li key={i}>{task}
-                    <button class="cerrar" 
+                    return <div className="border rounded"  key={i} ><li>{task}
+                    <button className="cerrar" 
                     onClick={() =>deleteTask(i) }><BsX></BsX></button></li></div>})
                     
-                    :<p class="empty">Empty list</p>}
+                    :<p className="empty">Empty list</p>}
                     
                 </ul>
-                <div class="larglist"> {largolista} Item left</div>
+                <div className="larglist"> {largolista} Item left</div>
 
     
 
